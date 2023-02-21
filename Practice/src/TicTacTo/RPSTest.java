@@ -8,14 +8,15 @@ public class RPSTest {
 		RockPaperScissors rps = new RockPaperScissors();
 		while(true) {
 			rps.runGame();
-			System.out.println("\n--- 게임을 더 하시겠습니까? (y/n) ---");
+			System.out.println("\n--- 寃뚯엫�쓣 �뜑 �븯�떆寃좎뒿�땲源�? (y/n) ---");
 			Scanner sc = new Scanner(System.in);
 			String answer = sc.nextLine();
 			if (answer.equals("n")) {
 				break;
 			}
 		}
-		System.out.println("\n--- 게임 종료 ---");
+		System.out.println("\n--- 寃뚯엫 醫낅즺 ---");
 	}
+	//1
 
 }
